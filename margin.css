@@ -1,0 +1,14 @@
+/* Margin pading */
+.card {
+    border: 2px solid gold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.card-info {
+    border: 2px solid rgba(0, 68, 255, 0.793);
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px; 
+    margin: 10px 20px 40px 20px;
+}
