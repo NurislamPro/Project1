@@ -1,11 +1,14 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f4f4f9
 }
-
 .cards {
     display: flex;
     flex-wrap: wrap; 
@@ -15,7 +18,7 @@ body {
 .card {
     background-color: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgb(240, 3, 3);
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -23,9 +26,12 @@ body {
 }
 
 .card img {
-    width: 100%;
+    width: 80%;
     height: 180px;
     object-fit: cover;
+    align-self: center;
+    border-radius: 12px 12px;
+    margin-top: 15px;
 }
 .card-content {
     padding: 15px;
@@ -76,9 +82,10 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    box-shadow: 0 4px 6px rgb(102, 30, 30);
 }
 
 /* Эффект при наведении на кнопку */
 .card button:hover {
-    background-color: #006ecb;
+    background-color: #20894ad6;
 }
