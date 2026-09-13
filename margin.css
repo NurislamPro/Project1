@@ -14,17 +14,26 @@ body {
     flex-wrap: wrap; 
     gap: 20px;      
     justify-content: center;
+    height: 100px;
+    align-items: center;
+    color: g
 }
 .card {
     background-color: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgb(240, 3, 3);
+    box-shadow: 0 4px 10px rgb(3, 11, 240);
     width: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction:  column;
     overflow: hidden; 
 }
-
+.card-footer span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: #271111;
+}
 .card img {
     width: 80%;
     height: 180px;
@@ -82,10 +91,10 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease;
-    box-shadow: 0 4px 6px rgb(102, 30, 30);
+    box-shadow: 0 4px 6px rgb(1, 17, 236);
 }
 
 /* Эффект при наведении на кнопку */
 .card button:hover {
-    background-color: #20894ad6;
+    background-color: #007bff;
 }
