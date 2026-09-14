@@ -7,26 +7,29 @@ body {
     margin: 0;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9
+        background-image: url('https://images.pexels.com/photos/27821966/pexels-photo-27821966.jpeg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 .cards {
     display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;      
-    justify-content: center;
-    height: 100px;
+
     align-items: center;
-    color: g
+    color: #333;
 }
 .card {
     background-color: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgb(3, 11, 240);
+    box-shadow: 10px 4px 30px 10px rgb(3, 11, 240);
     width: 300px;
     display: flex;
     flex-direction:  column;
     overflow: hidden; 
 }
+
 .card-footer span {
     display: flex;
     justify-content: space-between;
@@ -49,7 +52,6 @@ body {
     flex-grow: 1;
 }
 
-/* Заголовок карточки */
 .card h2 {
     margin: 0 0 10px 0;
     font-size: 22px;
@@ -62,10 +64,9 @@ body {
     color: #666;
     line-height: 1.4;
     margin: 0 0 20px 0;
-    flex-grow: 1; /* Выравнивает нижнюю часть, если текст разной длины */
+    flex-grow: 1;
 }
 
-/* Нижняя часть карточки (цена и кнопка в одну строку) */
 .card-footer {
     display: flex;
     justify-content: space-between;
