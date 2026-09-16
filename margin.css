@@ -19,7 +19,7 @@ body {
     display: flex;
 
     align-items: center;
-    color: #333;
+    color: #333; 
 }
 .card {
     background-color: #ffffff;
@@ -65,7 +65,7 @@ body {
     color: #666;
     line-height: 1.4;
     margin: 0 0 20px 0;
-    flex-grow: 1;
+    flex-grow: 1;   
 }
 
 .card-footer {
