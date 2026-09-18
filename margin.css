@@ -68,6 +68,7 @@ body {
     flex-grow: 1;   
 }
 
+
 .card-footer {
     display: flex;
     justify-content: space-between;
