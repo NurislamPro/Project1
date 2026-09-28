@@ -30,6 +30,7 @@ body {
     gap: 30px;
 }
 
+
 .link {
     color: #ffffff;
     text-decoration: none;
@@ -162,6 +163,8 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+
 
 .block3 {
     padding: 80px 20px;
